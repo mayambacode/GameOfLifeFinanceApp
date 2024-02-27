@@ -1,0 +1,21 @@
+.FinanceApp {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
