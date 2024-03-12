@@ -4,7 +4,22 @@ import {NavLink} from 'react-router-dom';
 function Navbar() {
   return (
     <div>
-      <h1>Navbar</h1>
+      <ul>
+        <li>
+          <NavLink to="/">Home</NavLink>
+        </li>
+        <li>
+          <NavLink to="/chat">Chat</NavLink>
+        </li>
+        <li>
+          <NavLink to="/login">Login</NavLink>
+        </li>
+        <li>
+          <NavLink to="/signup">Signup</NavLink>
+        </li>
+      </ul>
     </div>
   );
 }
+
+export default Navbar;
