@@ -8,6 +8,8 @@ import Navbar from './components/Navbar';
 import Chat from './components/Chat';
 import FAQ from './components/FAQ';
 
+
+
 function App() {
   return (
    <div className="FinanceApp">
