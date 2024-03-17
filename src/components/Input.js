@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Message() {
+function Input() {
   return (
     <div className='input'>
       <div>
@@ -10,3 +10,5 @@ function Message() {
     </div>
   );
 }
+
+export default Input;

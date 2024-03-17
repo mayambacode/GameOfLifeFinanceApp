@@ -1,7 +1,7 @@
 import React from 'react';
 import Message from './Message';
 
-function Message() {
+function Messages() {
   return (
     <div className='messages'>
       <div className='messageInfo'>
