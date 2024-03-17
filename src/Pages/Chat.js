@@ -1,12 +1,12 @@
 import React from 'react';
-import Messages from './Messages';
-import Input from './Input';
-function chatResponse() {
-
-  const [response, setResponse] = useState('');
-}
+import Messages from '../components/Messages';
+import Input from '../components/Input';
+import { useState } from 'react';
 
 function Chat() {
+
+  const [response, setResponse] = useState('');
+
   return (
     <div className='chat'>
       <div className='chatInfo'>
@@ -14,6 +14,10 @@ function Chat() {
         <span>Users Chat</span>
           <Messages/>
           <Input/>
+          <div>
+            <h3>Response:</h3>
+            <p>{response}</p> {/*Where ChatGPT is supposed to respond*/}
+          </div>
       </div>
     </div>
   );

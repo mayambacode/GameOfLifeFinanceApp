@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Login from './components/Login';
-import Signup from './components/Signup';
-import About from './components/About';
+import Login from './Pages/Login';
+import Signup from './Pages/Signup';
+import About from './Pages/About';
 import Navbar from './components/Navbar';
-import Chat from './components/Chat';
-import FAQ from './components/FAQ';
+import Chat from './Pages/Chat';
+import FAQ from './Pages/FAQ';
 
 
 
