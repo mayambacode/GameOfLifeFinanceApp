@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import About from './components/About';
@@ -18,11 +18,14 @@ function App() {
         {/* Add your finance-related components and content here */}
       </main>
             <Router>
-              <Route path="/login" component={Login} />
-              <Route path="/signup" component={Signup} />
-              <Route path="/about" component={About} />
-              <Route path="/chat" component={Chat} />
-              <Route path="/faq" component={FAQ} />
+              <Routes>
+                <Route path="/login" element={<Login/>} />
+                <Route path="/signup" element={<Signup/>} />
+                <Route path="/about" element={<About/>} />
+                <Route path="/chat" element={<Chat/>} />
+                <Route path="/faq" element={<FAQ/>} />
+              </Routes>
+              
             </Router>
       <footer>
         <p>&copy; 2024 Finance Manager</p>
