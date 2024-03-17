@@ -2,9 +2,12 @@ import React from 'react';
 
 function Chat() {
   return (
-    <div>
-      <h2>Chat</h2>
-      <p>Chat with other users here</p>
+    <div className='chat'>
+      <div className='chatInfo'>
+        <span>Users Chat</span>
+          <h2>Chat</h2>
+          <p>Chat with other users here</p>
+      </div>
     </div>
   );
 }
