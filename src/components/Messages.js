@@ -1,5 +1,5 @@
 import React from 'react';
-import Message from './Message';
+
 
 function Messages() {
   return (
@@ -7,10 +7,7 @@ function Messages() {
       <div className='messageInfo'>
         <span>Users Chat</span>
           <h2>Message</h2>
-          <Message/>
-          <Message/>
-          <Message/>
-          <Message/>
+        
       </div>
     </div>
   );
